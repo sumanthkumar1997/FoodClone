@@ -34,6 +34,34 @@
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: "https://cdn.sortiraparis.com/images/80/100789/834071-too-restaurant-too-hotel-paris-photos-menu-entrees.jpg";
+}
+
+.cardContainer {
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+  background-color:rgb(223, 178, 247);
+}
+
+.cardContainer:hover {
+border: 1px solid black;
+cursor: pointer;
+background-color:rgb(180, 76, 236);
+}
+
+.res-img {
+  width: 100%;
+}
+
+.res-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .App-link {
